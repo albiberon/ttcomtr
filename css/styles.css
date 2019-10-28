@@ -1,0 +1,282 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  margin-top: -20px;
+  text-align: center;
+  margin-bottom: 65px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 1.2;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.big-heading span {
+  font-size: 2.2rem;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  margin-top: 25px;
+  margin-bottom:-10px;
+  color: rgb(250, 114, 104);
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 1% 6%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #3fe395;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 2.8rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  z-index: 1;
+  padding: 0 8px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #3fe395;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#firstRow {
+  background-image: linear-gradient(to bottom,  rgba(117, 19, 93, 0.73), rgba(117, 19, 93, 0.33)),
+                    url("../images/background_main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#firstRowInnerPage {
+  background-image: linear-gradient(to bottom,  rgba(117, 19, 93, 0.73), rgba(117, 19, 93, 0.33)),
+                    url("../images/background_main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.3rem;
+  color: rgb(53, 58, 58);
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: rgb(77, 178, 186);
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: rgb(250, 114, 104);
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+#footer {
+  background-color: rgb(53, 58, 58);
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: white;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.svg_main_color {
+  fill: rgb(77, 178, 186);
+  max-width: 90px;
+}
+
+.devam-btn {
+  background-color: rgb(250, 114, 104);
+  border-color: rgb(250, 114, 104);
+}
+
+.img-overflow-text {
+  width: 90%;
+  align-content: center;
+  background-image: linear-gradient(to bottom,  rgba(117, 19, 93, 0.73), rgba(117, 19, 93, 0.33)),
+  url("../images/image_jonas_ginter.jpg");
+  height: 350px;
+  background-size: contain, cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.mitz {
+  width: 90%;
+  align-content: center;
+  background-image: url("../images/mits.jpg");
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.jonas-text {
+  position: absolute;
+  top: 70%;
+  right: 15%;
+  color: white;
+  font-weight: 100;
+  font-size: 0.7em;
+}
+
+.foto-under {
+  margin-top: 5px;
+  font-size: 0.9em;
+  margin-right: 10%;
+  text-align: left;
+}
+
+.pdf-button {
+  margin-top: 13px;
+  height: 50px;
+  padding-top: 0;
+  padding-bottom: 2px;
+  font-size: 0.8em;
+}
+
+.aboutus-link li {
+  color: #8f8f8f;
+  text-align: left;
+}
+
+.aboutus-text p {
+  text-align: left;
+}
+
+.mitsubishi-row {
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.margin-img {
+  margin-top: 6px;
+}
